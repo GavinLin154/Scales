@@ -8,7 +8,6 @@ void setup() {
 
 void draw() {
   background(0, 125, 200);
-  strokeWeight(2);
   fill(211, 160, 93);
   //Head
   arc(250, 288.5, 150, 183, PI/2, 3*PI/2);
@@ -48,13 +47,13 @@ void draw() {
   line(170, 340, 180, 350);
   //Tail
   beginShape();
-  curveVertex(406, 197);
-  curveVertex(406, 197);
-  curveVertex(492, 175);
-  curveVertex(472, 288.5);
-  curveVertex(492, 402);
-  curveVertex(406, 380);
-  curveVertex(406, 380);
+  curveVertex(405, 197);
+  curveVertex(405, 197);
+  curveVertex(491, 175);
+  curveVertex(471, 288.5);
+  curveVertex(491, 402);
+  curveVertex(405, 380);
+  curveVertex(405, 380);
   endShape();
   line(425, 288.5, 470, 288.5);
   line(425, 270, 474, 260);
